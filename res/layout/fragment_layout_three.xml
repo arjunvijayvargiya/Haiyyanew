@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+    
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#000000" >
+    
+        
+      
+       
+         
+         <LinearLayout
+             android:layout_width="match_parent"
+		    android:layout_height="140dp"
+		    android:orientation="horizontal"
+		    android:weightSum="2"
+		    android:background="#000000" >
+            
+             <ImageButton 
+                 android:id="@+id/t1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="140dp"
+                 android:layout_margin="10dp"
+                 android:layout_weight="1"
+                 android:scaleType="fitXY"
+                 android:background="@drawable/asthma"
+                 />
+             <ImageButton 
+                 android:id="@+id/t2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="140dp"
+                 android:scaleType="fitXY"
+                 android:layout_margin="10dp"
+                 android:layout_weight="1"
+                 android:background="@drawable/fever"
+                 />
+             
+         </LinearLayout>
+         <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dip" 
+           
+            />
+         
+           <LinearLayout
+             android:layout_width="match_parent"
+		    android:layout_height="140dp"
+		    android:orientation="horizontal"
+		    android:weightSum="2"
+		    android:background="#000000" >
+            
+             <ImageButton 
+                 android:id="@+id/t3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="140dp"
+                 android:layout_margin="10dp"
+                 android:layout_weight="1"
+                 android:scaleType="fitXY"
+                 android:background="@drawable/bp"
+                 />
+             <ImageButton 
+                 android:id="@+id/t4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="140dp"
+                 android:scaleType="fitXY"
+                 android:layout_margin="10dp"
+                 android:layout_weight="1"
+                 android:background="@drawable/indigestion"
+                 />
+             
+         </LinearLayout>
+         <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dip" 
+           
+            />
+          
+         
+          
+    </LinearLayout>
+    </ScrollView>
